@@ -1,0 +1,47 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: white;
+}
+div {
+  margin-bottom: 5px;
+}
+input {
+  margin-bottom: 10px;
+}
+div {
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+button {
+  margin-left: 10px;
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid red;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+h1,
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+}
+input[type="date"] {
+  margin-left: 10px;
+}
+input {
+  padding: 10px;
+  border: 2px solid red;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
